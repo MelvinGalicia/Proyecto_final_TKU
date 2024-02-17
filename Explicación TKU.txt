@@ -1,0 +1,35 @@
+Los requerimientos establecidos para el cotizador automático de la empresa de seguros TK-U presentan varios 
+puntos importantes:
+
+-Edad del asegurado: Se debe verificar que el asegurado sea mayor de edad. Si es menor de 18 años, no se 
+realizará la cotización.
+
+Recargos basados en la edad:
+
+-Se aplican recargos dependiendo de la edad del asegurado y del cónyuge.
+-Si el asegurado tiene entre 18 y 24 años, se aplica un recargo del 10% del precio base.
+-Si tienen entre 25 y 49 años, el recargo es del 20%.
+-Si tienen 50 años o más, el recargo es del 30%.
+-Recargo por estado civil y edad del cónyuge:
+
+Si el asegurado está casado, se considera la edad del cónyuge para aplicar un recargo adicional.
+Los recargos adicionales siguen la misma lógica de los recargos por edad del asegurado.
+Recargo por cantidad de hijos:
+Se aplica un recargo del 20% sobre el precio base por cada hijo, independientemente de la edad.
+
+El problema principal radica en que las cotizaciones se están realizando manualmente, lo que consume mucho 
+tiempo y limita la cantidad de cotizaciones que la empresa puede generar diariamente. Además, existe la 
+posibilidad de que se cometan errores durante el proceso manual, lo que podría afectar la precisión de 
+las cotizaciones y potencialmente perder clientes.
+
+Los casos que se están considerando para cambiar el valor de la cotización son:
+
+-Edad del asegurado: Si la edad del asegurado cae dentro de uno de los rangos especificados, se aplica un 
+recargo correspondiente.
+-Estado civil y edad del cónyuge: Si el asegurado está casado, se considera la edad del cónyuge para 
+aplicar un recargo adicional, siguiendo la misma lógica que el recargo por edad del asegurado.
+-Cantidad de hijos: Se aplica un recargo del 20% sobre el precio base por cada hijo.
+
+
+
+

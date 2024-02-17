@@ -1,0 +1,29 @@
+1. Inicio del programa:
+-Iniciar el programa y establecer las variables necesarias.
+
+2. Solicitar información del cliente:
+-Solicitar al usuario que ingrese los datos necesarios para la cotización:
+-Nombre del cliente.
+-Edad del cliente.
+-Estado civil del cliente (casado/soltero).
+-Edad del cónyuge (en caso de estar casado).
+-Cantidad de hijos.
+
+3. Validar la información del cliente:
+-Verificar que el cliente sea mayor de edad.
+-En caso de estar casado, verificar que la edad del cónyuge sea válida.
+
+4. Calcular recargos:
+-Calcular los recargos basados en la información proporcionada por el cliente:
+-Recargo por edad del asegurado.
+-Recargo por edad del cónyuge (si está casado).
+-Recargo por cantidad de hijos.
+
+5. Calcular precio total:
+-Sumar el precio base al total de recargos para obtener el precio final de la cotización.
+
+6. Mostrar resultados:
+-Mostrar al cliente el precio total de la cotización, junto con cualquier otro detalle relevante.
+
+7. Fin del programa:
+-Finalizar la ejecución del programa.
